@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Panoramik</title>
+  <style>
+    /* Grid Container */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      margin: 20px;
+      list-style: none;
+      padding: 0;
+    }
+    
+    /* Grid Item */
+    .grid-item {
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    }
+    
+    /* Image Style */
+    .grid-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+    
+    .grid-item:hover img {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body style="background-color:#000000; font-family: Orbitron;">
+  <br><br><br><br><br>
+  <ul class="grid-container">
+    <li class="grid-item">
+      <a href="../img/Panoramic/51500008 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51500008 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51510011 kopya.jpg" data-lightbox="gallery" data-title="Image 2">
+        <img src="../img/Panoramic/51510011 kopya.jpg" alt="Image 2">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51510021 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51510021 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51510023 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51510023 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520003 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520003 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520004 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520004 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520005 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520005 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520007 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520007 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520009 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520009 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520013 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520013 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520014 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520014 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520015 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520015 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520016 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520016 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520017 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520017 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520018 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520018 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520019 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520019 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520020 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520020 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <li class="grid-item">
+      <a href="../img/Panoramic/51520021 kopya.jpg" data-lightbox="gallery" data-title="Image 1">
+        <img src="../img/Panoramic/51520021 kopya.jpg" alt="Image 1">
+      </a>
+    </li>
+    <!-- Add more grid items as needed -->
+  </ul>
+  <br>
+
+  <div id="vb_footer" class="col" style="color:gray;">
+    <span class='vb_footer_text' style="font-size: 18px; margin-left: 2% " >Sitedeki tüm eserlerin hakları saklıdır. © 2023</span>
+  </div>
+
+  <!-- Lightbox Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panoramik</title>
+
+    <style>
+        div.gallery {
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 180px;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        </style>
+
+
+</head>
+<body style="background-color:#000000">
+
+    <div class="gallery">
+        <a  href="../img/Panoramic/51500008 kopya.jpg">
+          <img src="../img/Panoramic/51500008 kopya.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+       
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51500021 kopya.jpg">
+          <img src="../img/Panoramic/51500021 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51510011 kopya.jpg">
+          <img src="../img/Panoramic/51510011 kopya.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51510021 kopya.jpg">
+          <img src="../img/Panoramic/51510021 kopya.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51510023 kopya.jpg">
+          <img src="../img/Panoramic/51510023 kopya.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520003 kopya.jpg">
+          <img src="../img/Panoramic/51520003 kopya.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520004 kopya.jpg">
+          <img src="../img/Panoramic/51520004 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520005 kopya.jpg">
+          <img src="../img/Panoramic/51520005 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520007 kopya.jpg">
+          <img src="../img/Panoramic/51520007 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520009 kopya.jpg">
+          <img src="../img/Panoramic/51520009 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520013 kopya.jpg">
+          <img src="../img/Panoramic/51520013 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520014 kopya.jpg">
+          <img src="../img/Panoramic/51520014 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520015 kopya.jpg">
+          <img src="../img/Panoramic/51520015 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520016 kopya.jpg">
+          <img src="../img/Panoramic/51520016 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+      
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520017 kopya.jpg">
+          <img src="../img/Panoramic/51520017 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520018 kopya.jpg">
+          <img src="../img/Panoramic/51520018 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520019 kopya.jpg">
+          <img src="../img/Panoramic/51520019 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520020 kopya.jpg">
+          <img src="../img/Panoramic/51520020 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+
+      <div class="gallery">
+        <a  href="../img/Panoramic/51520021 kopya.jpg">
+          <img src="../img/Panoramic/51520021 kopya.jpg" alt="Forest" width="600" height="400">
+        </a>
+       
+      </div>
+
+      </body>
+</html>
+
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+    
